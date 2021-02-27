@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sch:Transaction xmlns:sch="http://Baf.com/schemas" name="ResetStatistics">
+    <sch:seqIndex>0</sch:seqIndex>
+    <sch:name>ResetStatistics</sch:name>
+    <sch:businessName></sch:businessName>
+    <sch:label>Reset Statistics</sch:label>
+    <sch:logicType>Groovy</sch:logicType>
+    <sch:methodBody>loggingAggrManager.resetStatistics()</sch:methodBody>
+    <sch:processDefinition></sch:processDefinition>
+    <sch:newStatus></sch:newStatus>
+    <sch:versionMode>New Version</sch:versionMode>
+    <sch:executionMode>With Transaction</sch:executionMode>
+    <sch:pageDefinition></sch:pageDefinition>
+    <sch:targetObjectType></sch:targetObjectType>
+    <sch:refreshMode></sch:refreshMode>
+    <sch:securityToken></sch:securityToken>
+    <sch:transType></sch:transType>
+    <sch:description></sch:description>
+</sch:Transaction>
